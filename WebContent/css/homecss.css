@@ -1,0 +1,49 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+body {
+	background: linear-gradient(to bottom right, pink 10%, blue, green, yellow);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#li {
+	float: right;
+	color: white;
+	font-size: 23px;
+	font-weight: bold;
+	padding: 8px 20px;
+}
+
+.slideshow {
+	width: 50%;
+	height: 500px;
+}
+
+#slideimage {
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-image: cover;
+}
